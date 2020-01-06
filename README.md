@@ -4,7 +4,8 @@ GUI application for personal finance, tracking revenue
 and spending by month.
 
 
-##TODO:
+TODO:
+----
 - [x] organization 
 - [ ] **backend**
 - [ ] basic gui
