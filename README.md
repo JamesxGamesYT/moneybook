@@ -7,6 +7,6 @@ and spending by month.
 TODO:
 ----
 - [x] organization 
-- [ ] **backend**
-- [ ] basic gui
+- [x] backend
+- [ ] **basic gui**
 - [ ] graphs
