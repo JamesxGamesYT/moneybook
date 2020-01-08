@@ -8,5 +8,7 @@ TODO:
 ----
 - [x] organization 
 - [x] backend
-- [ ] **basic gui**
+- [ ] basic gui
+	- [ ] ***custom font***
+	- [ ] layout
 - [ ] graphs
