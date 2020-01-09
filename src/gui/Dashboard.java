@@ -20,11 +20,10 @@ public class Dashboard  {
 		customfont = "yes";
 		JFrame window = new JFrame();
 		JLabel title = new JLabel();
-		title.setText("m " + "neybook");
-		title.setBounds(400,200,100,100);
 		try {
 			GraphicsEnvironment ge = GraphicsEnvironment.getLocalGraphicsEnvironment();
-			InputStream xkcd = new FileInputStream("xkcd-script.ttf");
+			File xkcd = new File("./bin/gui/xkcd-script.ttf");
+			System.out.println(xkcd.getCanonicalPath());
 			Font xkcdscript = Font.createFont(0, xkcd);
 			ge.registerFont(xkcdscript);
 			title.setFont(xkcdscript);
@@ -32,8 +31,11 @@ public class Dashboard  {
 			System.out.println(e);
 			customfont = "no";
 		}
+		title.setText("m " + "neybook");
+		title.setBounds(400,200,100,100);
+		
 		JMenuBar sidebar = new JMenuBar();
-		sidebar.setSize(256, 1080);
+		sidebar.setBounds(0, 50, 250, 800);
 		sidebar.setBackground(Color.BLACK);
 		
 		
